@@ -1,8 +1,8 @@
-public class Node {
+public class latihan1 {
     private int nilai;
-    private Node next;
+    private latihan1 next;
 
-    public Node(int nilai){
+    public latihan1(int nilai){
         this.nilai = nilai;
     }
 
@@ -14,11 +14,11 @@ public class Node {
         return nilai;
     }   
 
-    public void setNext(Node next){
+    public void setNext(latihan1 next){
         this.next = next;
     }
 
-    public Node getNext(){
+    public latihan1 getNext(){
         return next;
     }
 }
