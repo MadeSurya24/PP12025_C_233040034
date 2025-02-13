@@ -13,7 +13,7 @@ public class latihan2a {
         latihan1 p = n1;
         while(p != null)
         {
-            System.out.printf("%d, ", p.getNilai());
+            System.out.printf("%d ", p.getNilai());
             p = p.getNext();
         }
     }

@@ -15,7 +15,7 @@ public class latihan2b {
         latihan1 p = n1;
         while(p != null)
         {
-            System.out.printf("%d, ", p.getNilai());
+            System.out.printf("%d ", p.getNilai());
             p = p.getNext();
         }
     }
